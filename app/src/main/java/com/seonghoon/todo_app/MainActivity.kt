@@ -47,8 +47,6 @@ class MainActivity : AppCompatActivity() {
                 }
             }
             .setNegativeButton("취소", null)
-        val alertDialog = dialog.create()
-        alertDialog.window?.setSoftInputMode(android.view.WindowManager.LayoutParams.SOFT_INPUT_STATE_ALWAYS_VISIBLE) // 키보드 자동 표시
-        alertDialog.show()
+        dialog.show()
     }
 }
